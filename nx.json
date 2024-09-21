@@ -47,10 +47,16 @@
         "style": "css"
       },
       "library": {
+        "importPath": "@",
         "style": "css",
-        "linter": "eslint"
+        "linter": "eslint",
+        "unitTestRunner": "vitest"
       }
     }
   },
-  "nxCloudAccessToken": "NmY0NzgzZmUtZTI2MS00NDkyLTkxNGMtOTRkOTY2YTU2NWFmfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NmY0NzgzZmUtZTI2MS00NDkyLTkxNGMtOTRkOTY2YTU2NWFmfHJlYWQtd3JpdGU=",
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  }
 }
