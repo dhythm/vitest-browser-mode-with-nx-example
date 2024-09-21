@@ -3597,6 +3597,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:4.6.0"
     jsdom: "npm:~22.1.0"
     nx: "npm:17.2.8"
+    playwright: "npm:1.46.0"
     prettier: "npm:^2.6.2"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -8622,12 +8623,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"playwright-core@npm:1.46.0":
+  version: 1.46.0
+  resolution: "playwright-core@npm:1.46.0"
+  bin:
+    playwright-core: cli.js
+  checksum: 3f487b56624c7a53826e6d26fabb9eb016ba7c44b5618d85e24c60f975ef2eb07464a686347f6b07a1ae313e380b40067b6b368a2fb0beafd424865ed2e65024
+  languageName: node
+  linkType: hard
+
 "playwright-core@npm:1.47.2":
   version: 1.47.2
   resolution: "playwright-core@npm:1.47.2"
   bin:
     playwright-core: cli.js
   checksum: 4736eaa2e857880d8e341b5914bb21c41595176e8617fc67c881274a5406813b72b9ad4d79b7ecb576579637a599d256da97105ead340a7397a991cc3fe8b802
+  languageName: node
+  linkType: hard
+
+"playwright@npm:1.46.0":
+  version: 1.46.0
+  resolution: "playwright@npm:1.46.0"
+  dependencies:
+    fsevents: "npm:2.3.2"
+    playwright-core: "npm:1.46.0"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    playwright: cli.js
+  checksum: 668760aa71fcb9a83353961c830a1256f1431bb9fc90d250f7420a367bf009ff415dfb6ba7bdd5013f4b653cd872c001f60eac716391b6655603234dcde55d64
   languageName: node
   linkType: hard
 

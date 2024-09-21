@@ -36,4 +36,5 @@ yarn nx run foo:test
 
 ```sh
 yarn add -D vitest@2.0.5 @vitest/browser@2.0.5 @vitest/coverage-istanbul@2.0.5 @vitest/ui@2.0.5
+yarn add -D playwright@1.46.0
 ```
