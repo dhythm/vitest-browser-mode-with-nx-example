@@ -48,6 +48,18 @@ export default defineConfig({
   },
 
   test: {
+    browser: {
+      enabled: true,
+      // headless: true,
+      name: 'chromium',
+      provider: 'playwright',
+      providerOptions: {
+        launch: {
+          args: ['--disable-web-security'],
+        },
+      },
+      screenshotFailures: false,
+    },
     globals: true,
     cache: {
       dir: '../../node_modules/.vitest',
@@ -58,7 +70,7 @@ export default defineConfig({
     reporters: ['default'],
     coverage: {
       reportsDirectory: '../../coverage/libs/foo',
-      provider: 'v8',
+      provider: 'istanbul',
     },
   },
 });

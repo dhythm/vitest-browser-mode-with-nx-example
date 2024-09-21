@@ -31,3 +31,9 @@ yarn nx generate @nx/react:library foo
 ```sh
 yarn nx run foo:test
 ```
+
+## Set up Vitest Browser Mode
+
+```sh
+yarn add -D vitest@2.0.5 @vitest/browser@2.0.5 @vitest/coverage-istanbul@2.0.5 @vitest/ui@2.0.5
+```
