@@ -1,4 +1,4 @@
-# Vitest Browser Mode x Nx x Yarn
+# Vitest Browser Mode + Nx + Yarn
 
 ## Installation
 
