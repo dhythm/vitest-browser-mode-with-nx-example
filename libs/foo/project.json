@@ -26,10 +26,9 @@
       }
     },
     "test": {
-      "executor": "@nx/vite:test",
-      "outputs": ["{options.reportsDirectory}"],
+      "executor": "nx:run-commands",
       "options": {
-        "reportsDirectory": "../../coverage/libs/foo"
+        "command": "vitest --run --config libs/foo/vite.config.ts"
       }
     }
   }

@@ -15,3 +15,19 @@ npx create-nx-workspace@17.2.8 --pm yarn                                      �
 ✔ Default stylesheet format · css
 ✔ Enable distributed caching to make your CI faster · Yes
 ```
+
+## Create a library
+
+```sh
+yarn nx generate @nx/react:library foo
+
+✔ What unit test runner should be used? · vitest
+✔ Which bundler would you like to use to build the library? Choose 'none' to skip build setup. · vite
+✔ What should be the project name and where should it be generated? · foo @ libs/foo
+```
+
+## Run tests
+
+```sh
+yarn nx run foo:test
+```
