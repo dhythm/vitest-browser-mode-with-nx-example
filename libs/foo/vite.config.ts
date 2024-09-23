@@ -46,11 +46,15 @@ export default defineConfig({
       external: ['react', 'react-dom', 'react/jsx-runtime'],
     },
   },
-
+  server: {
+    fs: {
+      allow: [path.join(__dirname, '../..')],
+    },
+  },
   test: {
     browser: {
       enabled: true,
-      // headless: true,
+      headless: true,
       name: 'chromium',
       provider: 'playwright',
       providerOptions: {
